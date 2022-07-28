@@ -1,0 +1,22 @@
+{
+    "type": "mssql",
+    "host": "",
+    "port": "",
+    "username": "",
+    "password": "",
+    "database": "",
+    "entities": [
+        "src/app/models/*.ts"
+    ],
+    "migrations": [
+        "src/database/migration/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "src/database/migration"
+    },
+    "synchronize": false,
+    "logging": false,
+    "options": { "encrypt": false }
+
+
+}
